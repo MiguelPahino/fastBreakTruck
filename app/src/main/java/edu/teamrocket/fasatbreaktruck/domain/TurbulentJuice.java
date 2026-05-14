@@ -4,8 +4,8 @@ import edu.teamrocket.fasatbreaktruck.types.Bebida;
 
 public class TurbulentJuice extends Bebida{
 
-    private final String NOMBRE = new String();
-    private final Float PVP = 0f;
+    private final String NOMBRE = "Turbulent juuuuice";
+    private final Float PVP = 30f;
 
     public TurbulentJuice(){
     }
