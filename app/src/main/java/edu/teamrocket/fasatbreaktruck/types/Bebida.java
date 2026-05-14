@@ -13,6 +13,20 @@ public abstract class Bebida implements Item {
         return new Tubo();   
     }
 
-    
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+
+        builder.append("Item: ");
+        builder.append(this.nombre());
+        builder.append(", Empaquetado: ");
+        builder.append(this.empaquetado());
+        builder.append(", Precio: ");
+        builder.append(this.pvp());
+        builder.append("\n");
+
+        return builder.toString();
+
+    }
 
 }
