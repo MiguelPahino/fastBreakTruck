@@ -4,7 +4,7 @@ import edu.teamrocket.fasatbreaktruck.behaviour.Packing;
 
 public class Tubo implements Packing{
 
-    public Tubo(){};
+    public Tubo(){}
 
     @Override
     public String envoltorio() {

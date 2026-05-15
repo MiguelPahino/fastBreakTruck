@@ -7,7 +7,7 @@ public class Smiggles extends Cereales {
     private final String NOMBRE = "Smiggles";
     private final Float PVP = 50f;
 
-    public Smiggles(){};
+    public Smiggles(){}
 
     @Override
     public String nombre() {
