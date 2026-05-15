@@ -7,8 +7,7 @@ public class FleebJuice extends Bebida{
     private final String NOMBRE = "Fleeb juice";
     private final Float PVP = 35f;
 
-    public FleebJuice(){
-    }
+    public FleebJuice(){}
     
     @Override
     public String nombre() {

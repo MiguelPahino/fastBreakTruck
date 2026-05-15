@@ -8,7 +8,7 @@ public class Desayuno {
     private Float total = 0f;
     private List<Item> items = new ArrayList<>();
 
-    public Desayuno(){};
+    public Desayuno(){}
 
     public void addItem(Item item){
         this.items.add(item);

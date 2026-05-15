@@ -6,7 +6,7 @@ import edu.teamrocket.fasatbreaktruck.domain.Caja;
 
 public abstract class Cereales implements Item {
 
-    public Cereales(){};
+    protected Cereales(){}
 
     @Override
     public Packing empaquetado() {
@@ -20,7 +20,7 @@ public abstract class Cereales implements Item {
         builder.append("Item: ");
         builder.append(this.nombre());
         builder.append(", Empaquetado: ");
-        builder.append(this.empaquetado());
+        builder.append(this.empaquetado().envoltorio());
         builder.append(", Precio: ");
         builder.append(this.pvp());
         builder.append("\n");

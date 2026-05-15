@@ -7,7 +7,7 @@ public class Eyeholes extends Cereales {
     private final String NOMBRE = "Eye holes";
     private final Float PVP = 25f;
 
-    public Eyeholes(){};
+    public Eyeholes(){}
 
     @Override
     public String nombre() {
